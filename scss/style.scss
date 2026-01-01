@@ -1,0 +1,16 @@
+@use 'fonts';
+@use 'variables' as *;
+@use 'heading';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    background-color: $neutral-color-white;
+    font-size: $font-size;
+}

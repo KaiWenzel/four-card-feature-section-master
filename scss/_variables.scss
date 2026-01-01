@@ -1,0 +1,18 @@
+@use 'fonts';
+
+$font-size: 0.9375rem;
+
+$font-stack: 'Poppins', sans-serif;
+
+$font-weight-small: 200;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+$primary-color-red: hsl(0, 78%, 62%);
+$primary-color-cyan: hsl(180, 62%, 55%);
+$primary-color-orange: hsl(34, 97%, 64%);
+$primary-color-blue: hsl(212, 86%, 64%);
+
+$neutral-color-grey-500: hsl(234, 12%, 34%);
+$neutral-color-grey-400: hsl(212, 6%, 44%);
+$neutral-color-white: hsl(0, 0%, 100%);

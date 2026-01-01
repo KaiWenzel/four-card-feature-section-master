@@ -1,0 +1,35 @@
+@use 'fonts';
+@use 'variables';
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: variables.$font-stack;
+}
+
+.heading-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 32rem;
+
+    .description {
+        text-align: center;
+        color: variables.$neutral-color-grey-500;
+        margin-top: 0.5rem;
+    }
+}
+
+.slogan {
+    color: variables.$neutral-color-grey-400;
+    font-size: 2rem;
+    font-weight: variables.$font-weight-small;
+}
+
+.slogan-bold {
+    color: variables.$neutral-color-grey-500;
+    font-weight: variables.$font-weight-bold;
+    font-size: 2rem
+}
