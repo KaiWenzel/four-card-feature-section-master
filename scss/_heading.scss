@@ -18,7 +18,7 @@
     .description {
         text-align: center;
         color: variables.$neutral-color-grey-500;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
     }
 }
 
@@ -26,10 +26,21 @@
     color: variables.$neutral-color-grey-400;
     font-size: 2rem;
     font-weight: variables.$font-weight-small;
+    text-align: center;
 }
 
 .slogan-bold {
     color: variables.$neutral-color-grey-500;
     font-weight: variables.$font-weight-bold;
-    font-size: 2rem
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 799px) {
+    .slogan {
+        font-size: 1.5rem;
+    }
+    .slogan-bold {
+        font-size: 1.5rem;
+    }
 }
